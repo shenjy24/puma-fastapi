@@ -2,8 +2,8 @@ from fastapi import APIRouter, HTTPException
 from fastapi import status
 from typing import List
 
-from app.service.item_service import service as item_service
-from app.schema.item_schema import Item
+from app.services.item_service import service as item_service
+from app.schemas.item_schema import Item
 from app.core.exceptions import AppException
 
 router = APIRouter()

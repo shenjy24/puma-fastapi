@@ -1,5 +1,5 @@
 from typing import Dict, List, Optional
-from app.schema.item_schema import Item
+from app.schemas.item_schema import Item
 
 
 class ItemService:
